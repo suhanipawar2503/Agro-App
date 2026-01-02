@@ -1,6 +1,6 @@
-# 🌱 Agro App – Online Farm Product Delivery System (Android)
+# Agro App – Online Farm Product Delivery System (Android)
 
-## 📱 Project Overview
+## Project Overview
 
 **Agro App** is an Android-based online farm product delivery application developed to support local farmers and small-scale agricultural entrepreneurs by providing a digital platform to sell and deliver agricultural products efficiently. The application enables customers to browse, order, and receive agricultural products such as seeds, fertilizers, pesticides, fungicides, and farm machinery with reliable delivery details.
 
@@ -8,7 +8,7 @@ The project focuses on simplifying the buying process for customers while promot
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Provide a reliable delivery system for local farmers’ orders
 * Promote small-scale agricultural entrepreneurs
@@ -17,9 +17,9 @@ The project focuses on simplifying the buying process for customers while promot
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 👤 User Module
+###  User Module
 
 * User Registration and Login
 * View product categories and listings
@@ -27,7 +27,7 @@ The project focuses on simplifying the buying process for customers while promot
 * View order history (My Orders)
 * Manage user profile
 
-### 🛠️ Admin Module
+### Admin Module
 
 * Admin login
 * Add and manage product categories
@@ -35,7 +35,7 @@ The project focuses on simplifying the buying process for customers while promot
 * Manage stock availability (In Stock / Out of Stock)
 * View user orders and registered users
 
-### 🚚 Order & Delivery
+### Order & Delivery
 
 * Secure order placement
 * User delivery details
@@ -43,7 +43,7 @@ The project focuses on simplifying the buying process for customers while promot
 
 ---
 
-## 🖼️ Application Screens
+##  Application Screens
 
 * Splash Screen
 * Login & Registration
@@ -58,7 +58,7 @@ The project focuses on simplifying the buying process for customers while promot
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 * **Frontend:** Java (Android), XML
 * **Backend:** PHP
@@ -68,13 +68,13 @@ The project focuses on simplifying the buying process for customers while promot
 
 ---
 
-## 🗄️ Database Connectivity
+##  Database Connectivity
 
 The application uses **PHP and MySQL** for backend operations. XAMPP is used as a local server to handle authentication, product management, order processing, and profile updates.
 
 ---
 
-## 🚀 Advantages
+##  Advantages
 
 * User-friendly interface
 * Supports local farmers and businesses
@@ -83,7 +83,7 @@ The application uses **PHP and MySQL** for backend operations. XAMPP is used as 
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * Real-time order tracking
 * Push notifications

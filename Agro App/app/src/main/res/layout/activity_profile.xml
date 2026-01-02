@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    tools:context=".user.ProfileActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="#239128"
+                android:textStyle="bold"
+                android:textSize="34dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/etxtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#239128"
+                android:background="@drawable/shape"
+                android:textColorHint="#239128"
+                android:hint="Name" />
+            <EditText
+                android:id="@+id/etxtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#239128"
+                android:background="@drawable/shape"
+                android:textColorHint="#239128"
+                android:hint="Email" />
+            <EditText
+                android:id="@+id/etxtMobileno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#239128"
+                android:background="@drawable/shape"
+                android:textColorHint="#239128"
+                android:hint="Mobileno" />
+            <EditText
+                android:id="@+id/etxtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#239128"
+                android:background="@drawable/shape"
+                android:textColorHint="#239128"
+                android:hint="Password" />
+
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="15dp"
+                android:onClick="updateProfileClick"
+                android:backgroundTint="#239128"
+                android:text="Update Profile" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="15dp"
+                android:onClick="logOutClick"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:text="Log Out" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

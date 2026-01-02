@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7ECD81"
+    tools:context=".user.CategoriesActivity">
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:onClick="btnSeedsClick">
+
+
+                <ImageView
+                    android:layout_width="187dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/seeds" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seeds"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="22dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:onClick="btnPesticidesClick"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+
+                <ImageView
+                    android:layout_width="186dp"
+                    android:layout_height="92dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pesticides" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pestisides"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="22dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:onClick="btnFertilizerClick">
+
+
+                <ImageView
+                    android:layout_width="187dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fertilizer" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fertilizers"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="22dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:onClick="btnFungicideClick"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+
+                <ImageView
+                    android:layout_width="186dp"
+                    android:layout_height="92dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fungides" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fungicides"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="22dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:onClick="btnHerbicidesClick">
+
+
+                <ImageView
+                    android:layout_width="187dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/herbicides" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Herbicides"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="22dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:onClick="btnFarmmachinesClick"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+
+                <ImageView
+                    android:layout_width="186dp"
+                    android:layout_height="92dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tractor1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Farm Machinery"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="22dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>

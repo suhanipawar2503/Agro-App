@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/kisan"
+        android:label="Agro App"
+        android:roundIcon="@drawable/kisan"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".admin.ViewBookingActivity"
+            android:exported="false"
+            android:label="Users Bookings"/>
+        <activity
+            android:name=".user.MyBookingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.seedsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.UserBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddPesticidesActivity"
+            android:exported="false"
+            android:label="Add Pesticides" />
+        <activity
+            android:name=".admin.AdminPesticidesActivity"
+            android:exported="false"
+            android:label="Pesticides" />
+        <activity
+            android:name=".admin.AddFarmmachinesActivity"
+            android:exported="false"
+            android:label="Add Farm Machines" />
+        <activity
+            android:name=".admin.AdminFarmmachinesActivity"
+            android:exported="false"
+            android:label="Farm Machines" />
+        <activity
+            android:name=".admin.AddHerbicidesActivity"
+            android:exported="false"
+            android:label="Add Herbicides" />
+        <activity
+            android:name=".admin.AdminHerbicidesActivity"
+            android:exported="false"
+            android:label="Herbicides" />
+        <activity
+            android:name=".admin.AddFungicidesActivity"
+            android:exported="false"
+            android:label="Add Fungicides" />
+        <activity
+            android:name=".admin.AdminFungicidesActivity"
+            android:exported="false"
+            android:label="Fungicides" />
+        <activity
+            android:name=".admin.AddFertilizersActivity"
+            android:exported="false"
+            android:label="Add Fertilizers" />
+        <activity
+            android:name=".admin.AdminFertilizersActivity"
+            android:exported="false"
+            android:label="Fertilizers" />
+        <activity
+            android:name=".admin.AddSeedsActivity"
+            android:exported="false"
+            android:label="Add Seeds" />
+        <activity
+            android:name=".admin.AdminSeedsActivity"
+            android:exported="false"
+            android:label="Seeds" />
+        <activity
+            android:name=".admin.AdminCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.HerbicidesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.SeedsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.FarmmachinesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.FungicidesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.FertilizersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.PesticidesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.CategoriesActivity"
+            android:exported="false"
+            android:label="Categories" />
+        <activity
+            android:name=".user.ViewItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.UserHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
